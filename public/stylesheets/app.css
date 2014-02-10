@@ -1,0 +1,58 @@
+html {
+  height: 100%; }
+
+body {
+  font-family: American Typewriter;
+  margin: 0;
+  height: 100%;
+  background-color: #007383;
+  background-image: url("/images/glazur.jpg");
+  background-size: 100% 100%; }
+
+header {
+  color: white;
+  background-color: #A9D5DE;
+  opacity: 0.6;
+  margin: 0;
+  height: 90px; }
+  header a {
+    text-decoration: none;
+    color: white; }
+  header h1 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0 }
+
+header:hover {
+  background-color: #007383; }
+
+nav {
+  font-size: 1.5em; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    nav ul li {
+      height: 50px;
+      border-bottom: dashed; }
+      nav ul li a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: black;
+        height: 40px;
+        width: 250px;
+        display: block;
+        padding-top: 10px; }
+      nav ul li a:hover {
+        background-color: #007383; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 40%;
+}
+
+
+.content { }
+
