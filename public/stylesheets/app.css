@@ -11,20 +11,20 @@ body {
 
 header {
   color: white;
-  background-color: #A9D5DE;
-  opacity: 0.6;
-  margin: 0;
-  height: 90px; }
-  header a {
-    text-decoration: none;
-    color: white; }
+  background-color: rgba(169,213,222,0.6);
+  height: 80px;
+  position: relative; }
   header h1 {
     font-weight: normal;
     text-align: center;
-    margin: 0 }
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    width: 100%;}
 
 header:hover {
-  background-color: #007383; }
+  background-color: rgba(0,115,131,0.6);
+  cursor: pointer; }
 
 nav {
   font-size: 1.5em; }
