@@ -1,11 +1,14 @@
 require 'sinatra'
 require 'fast_gettext'
+Dir["./helpers/*"].each {|file| require file }
 
 FastGettext.add_text_domain('app', path: 'locales', type: :po)
 FastGettext.text_domain = 'app'
 FastGettext.available_locales = ['ru','en']
 
 include FastGettext
+
+helpers LocaleHelper
 
 set :port, 80 if production?
 set :haml, :format => :html5
