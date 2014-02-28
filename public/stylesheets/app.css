@@ -27,24 +27,52 @@ header:hover {
   cursor: pointer; }
 
 nav {
-  font-size: 1.5em; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    nav ul li {
-      height: 50px;
-      border-bottom: dashed; }
-      nav ul li a {
-        padding-left: 20px;
-        text-decoration: none;
-        color: black;
-        height: 40px;
-        width: 250px;
-        display: block;
-        padding-top: 10px; }
-      nav ul li a:hover {
-        background-color: #007383; }
+  width: 800px;
+  position: relative;
+  margin: auto;
+  color: white;
+}
+
+nav .photos {
+  position: absolute;
+  top: -20px;
+  left: 210px;
+  background-color: rgba(229,223,133,0.6);
+}
+
+nav .pottery {
+  position: absolute;
+  top: -10px;
+  left: 300px;
+  background-color: rgba(249,180,208,0.6);
+}
+
+nav .aboutme {
+  position: absolute;
+  top: -15px;
+  left: 390px;
+  background-color: rgba(120,217,217,0.6);
+}
+
+nav .contacts {
+  position: absolute;
+  top: -18px;
+  left: 480px;
+  background-color: rgba(82,191,144, 0.6);
+}
+
+nav .circle100 span {
+  top: 40px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.circle100 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
 
 .circle30 {
   width: 30px;

@@ -11,4 +11,11 @@ $( document ).ready(function() {
     window.location      = current_location.replace(
       new RegExp(window.location.host + "\/(ru|en)*"), window.location.host + "/" + new_locale);
   })
+
+  $('.aboutme, .contacts').on('click', function(){
+    var url = $(this).data('url');
+    $.get(url, function(data) {
+      $(".content").html(data);
+    });
+  })
 });

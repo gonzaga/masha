@@ -31,3 +31,5 @@ end
 get '/' do
   haml :index
 end
+
+get ''

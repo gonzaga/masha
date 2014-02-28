@@ -12,6 +12,14 @@
       %span ru
     %h1= _('Maria Gilmanova')
   %nav
+    .circle100.photos
+      %span= _('Photos')
+    .circle100.pottery
+      %span= _('Pottery')
+    .circle100.aboutme
+      %span= _('About Me'){ 'data-url' => "/#{current_locale}/aboutme" }
+    .circle100.contacts
+      %span= _('Contacts'){ 'data-url' => "/#{current_locale}/contacts" }
   .content
     = yield
   %script(src="/javascripts/app.js")
