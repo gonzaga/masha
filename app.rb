@@ -24,12 +24,14 @@ before '*' do
   end
 end
 
-before '/*' do
-  
-end
-
 get '/' do
   haml :index
 end
 
-get ''
+get '/aboutme' do
+  haml :aboutme
+end
+
+get '/contacts' do
+  haml :contacts
+end

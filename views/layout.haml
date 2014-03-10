@@ -13,13 +13,17 @@
     %h1= _('Maria Gilmanova')
   %nav
     .circle100.photos
-      %span= _('Photos')
+      %a(href="http://www.flickr.com/photos/tenshii" target="_blank")
+        %span= _('Photos')
     .circle100.pottery
-      %span= _('Pottery')
+      %a(href="http://www.flickr.com/photos/tenshii/sets/72157641059693105/" target="_blank")
+        %span= _('Pottery')
     .circle100.aboutme
-      %span= _('About Me'){ 'data-url' => "/#{current_locale}/aboutme" }
+      %a{ href: "/#{current_locale}/aboutme" }
+        %span= _('About Me')
     .circle100.contacts
-      %span= _('Contacts'){ 'data-url' => "/#{current_locale}/contacts" }
+      %a{ href: "/#{current_locale}/contacts" }
+        %span= _('Contacts')
   .content
     = yield
   %script(src="/javascripts/app.js")

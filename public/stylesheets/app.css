@@ -28,6 +28,7 @@ header:hover {
 
 nav {
   width: 800px;
+  height: 100px;
   position: relative;
   margin: auto;
   color: white;
@@ -35,33 +36,31 @@ nav {
 
 nav .photos {
   position: absolute;
-  top: -20px;
-  left: 210px;
+  left: 200px;
   background-color: rgba(229,223,133,0.6);
 }
 
 nav .pottery {
-  position: absolute;
-  top: -10px;
+  position: absolute;;
   left: 300px;
   background-color: rgba(249,180,208,0.6);
 }
 
 nav .aboutme {
   position: absolute;
-  top: -15px;
-  left: 390px;
-  background-color: rgba(120,217,217,0.6);
+  left: 400px;
+  background-color: rgba(160,227,187,0.6);
 }
 
 nav .contacts {
   position: absolute;
-  top: -18px;
-  left: 480px;
-  background-color: rgba(82,191,144, 0.6);
+  left: 500px;
+  background-color: rgba(77,183,199,0.60);
 }
 
 nav .circle100 span {
+  color: white;
+  text-decoration: none;
   top: 40px;
   position: absolute;
   width: 100%;
@@ -94,5 +93,8 @@ nav .circle100 span {
   top: 6px;
   left: 6px;
 }
-.content { }
+.content {
+  width: 800px;
+  margin: auto;
+}
 
