@@ -19,11 +19,11 @@ msgstr ""
 " && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "\n"
 
-msgid "About Me"
+msgid "About"
 msgstr "Обо мне"
 
-msgid "Contacts"
-msgstr "Контакты"
+msgid "Contact"
+msgstr "Контакт"
 
 msgid "Maria Gilmanova"
 msgstr "Мария Гильманова"

@@ -28,10 +28,10 @@ get '/' do
   haml :index
 end
 
-get '/aboutme' do
-  haml :aboutme
+get '/about' do
+  haml :about
 end
 
-get '/contacts' do
-  haml :contacts
+get '/contact' do
+  haml :contact
 end

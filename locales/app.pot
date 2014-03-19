@@ -18,10 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "About Me"
+msgid "About"
 msgstr ""
 
-msgid "Contacts"
+msgid "Contact"
 msgstr ""
 
 msgid "Maria Gilmanova"

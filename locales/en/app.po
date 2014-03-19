@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
-msgid "About Me"
-msgstr ""
+msgid "About"
+msgstr "About"
 
-msgid "Contacts"
-msgstr ""
+msgid "Contact"
+msgstr "Contact"
 
 msgid "Maria Gilmanova"
 msgstr "Maria Gilmanova"
